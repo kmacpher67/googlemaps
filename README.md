@@ -1,6 +1,13 @@
 # googlemaps
 Google maps code sample for KML 
 
+* Flat file tab delimited source file with no geo location data: lat/lng 
+* Read the address, city state, zip data into a url safe string value
+* call the google maps geocode json address url with KEY 
+* update the tab delimited file with new goecode lat/lng data coordinates (and zip +4 extensions) 
+* Create a marker for address to include on personal maps for the address with notes & data. 
+
+
 Read the address into a URL friendly string variable and HTTP GET the json-response. 
 URL: 
 https://maps.googleapis.com/maps/api/geocode/json?address=157+ADELAIDE+AVE+SE,+WARREN+OH+44483&key=YOUR_API_KEY
