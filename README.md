@@ -2,9 +2,9 @@
 Google maps code sample for KML 
 
 Read the address into a URL friendly string variable and HTTP GET the json-response. 
-
+```
 https://maps.googleapis.com/maps/api/geocode/json?address=157+ADELAIDE+AVE+SE,+WARREN+OH+44483&key=YOUR_API_KEY
-
+<
 {
    "results" : [
       {
@@ -73,3 +73,4 @@ https://maps.googleapis.com/maps/api/geocode/json?address=157+ADELAIDE+AVE+SE,+W
       }
    ],
    "status" : "OK"
+```
